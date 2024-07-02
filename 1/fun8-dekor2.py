@@ -8,7 +8,7 @@ def uppercase_decorator(func):
         result = func(*args, **kwargs)
         return result.upper()  # zamiana na duże litery
 
-    return wrapper
+    return wrapper  # zwraca adres
 
 
 @uppercase_decorator
