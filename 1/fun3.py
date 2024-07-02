@@ -116,4 +116,4 @@ print(fib_cashed.cache_info())
 # hits - ile razy uzyskał wynik nie musząc wykonywać obliczeń
 # misses - tyle razy musiał na nowo obliczyć
 fib_cashed.cache_clear()  # czyszczenie cache
-print(fib_cashed.cashe_info())
+print(fib_cashed.cache_info())  # CacheInfo(hits=0, misses=0, maxsize=1000, currsize=0)
