@@ -2,7 +2,7 @@
 # age powinien posiadać wartości domyślne
 # z tych argumentów funkcja zbuduje słownik
 # należy pobierać argumenty w pętli while
-# zastosować "kalwisz ucieczki"
+# zastosować "klawisz ucieczki"
 # ctrl / - cmd /
 
 def build_dict(first, name, age=None):
