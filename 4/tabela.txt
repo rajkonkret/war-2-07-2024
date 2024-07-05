@@ -1,0 +1,33 @@
+Currency bat (Tajlandia), Code THB, Mid: 0.1083
+Currency dolar amerykański, Code USD, Mid: 3.9581
+Currency dolar australijski, Code AUD, Mid: 2.6659
+Currency dolar Hongkongu, Code HKD, Mid: 0.5067
+Currency dolar kanadyjski, Code CAD, Mid: 2.9095
+Currency dolar nowozelandzki, Code NZD, Mid: 2.4227
+Currency dolar singapurski, Code SGD, Mid: 2.9323
+Currency euro, Code EUR, Mid: 4.2858
+Currency forint (Węgry), Code HUF, Mid: 0.010914
+Currency frank szwajcarski, Code CHF, Mid: 4.4059
+Currency funt szterling, Code GBP, Mid: 5.0582
+Currency hrywna (Ukraina), Code UAH, Mid: 0.0976
+Currency jen (Japonia), Code JPY, Mid: 0.024624
+Currency korona czeska, Code CZK, Mid: 0.1702
+Currency korona duńska, Code DKK, Mid: 0.5746
+Currency korona islandzka, Code ISK, Mid: 0.028706
+Currency korona norweska, Code NOK, Mid: 0.3748
+Currency korona szwedzka, Code SEK, Mid: 0.3774
+Currency lej rumuński, Code RON, Mid: 0.8611
+Currency lew (Bułgaria), Code BGN, Mid: 2.1913
+Currency lira turecka, Code TRY, Mid: 0.1209
+Currency nowy izraelski szekel, Code ILS, Mid: 1.0639
+Currency peso chilijskie, Code CLP, Mid: 0.004234
+Currency peso filipińskie, Code PHP, Mid: 0.0676
+Currency peso meksykańskie, Code MXN, Mid: 0.2192
+Currency rand (Republika Południowej Afryki), Code ZAR, Mid: 0.2176
+Currency real (Brazylia), Code BRL, Mid: 0.7210
+Currency ringgit (Malezja), Code MYR, Mid: 0.8405
+Currency rupia indonezyjska, Code IDR, Mid: 0.00024316
+Currency rupia indyjska, Code INR, Mid: 0.047402
+Currency won południowokoreański, Code KRW, Mid: 0.002867
+Currency yuan renminbi (Chiny), Code CNY, Mid: 0.5446
+Currency SDR (MFW), Code XDR, Mid: 5.2450

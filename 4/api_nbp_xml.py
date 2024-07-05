@@ -1,6 +1,22 @@
 import xml.etree.ElementTree as ET
+from typing import List
+
 import requests as re
 from pydantic import BaseModel
+
+
+class CurrencyRate(BaseModel):
+    currency: str
+    code: str
+    mid: float
+
+
+class ExchangeRatesTables(BaseModel):
+    table: str
+    date: str
+    number: str
+    rates: List[CurrencyRate]
+
 
 url = 'http://api.nbp.pl/api/exchangerates/tables/A/?format=xml'
 
@@ -30,4 +46,13 @@ print(rates)
 #                 <Code>XDR</Code>
 #                 <Mid>5.2450</Mid>
 # </Rate>
+currency_rates = []
+for rate in rates:
+    currency = rate.find('Currency').text
+    code = rate.find('Code').text
+    mid = rate.find('Mid').text
+    print(f"Currency: {currency}, Code: {code}, Mid: {mid}")
+    currency_rates.append(CurrencyRate(currency=currency, code=code, mid=mid))
 
+exchange_rate_tables = ExchangeRatesTables(table=table_name, date=data, number=no, rates=currency_rates)
+print(exchange_rate_tables)
