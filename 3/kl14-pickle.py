@@ -13,6 +13,7 @@ with open('lista.txt', "r") as fh:
     lines = fh.read()
 
 print(lines)  # [1, 2, 3, 4, 5]
+print(lines[0])  # [
 print(type(lines))  # <class 'str'>
 
 # serializacja - zamiana obiektu na bajty
