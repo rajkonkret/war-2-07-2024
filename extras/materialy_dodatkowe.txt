@@ -131,3 +131,8 @@ __truediv__(self, other)	/
 __floordiv__(self, other)	//
 __mod__(self, other)	%
 __pow__(self, other)	**
+
+pip freeze > requirements.txt
+pip install -r .\requirements.txt
+
+pip list - zainstalowane pakiety
