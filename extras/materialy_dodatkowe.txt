@@ -136,3 +136,6 @@ pip freeze > requirements.txt
 pip install -r .\requirements.txt
 
 pip list - zainstalowane pakiety
+
+pip install pyinstaller
+pyinstaller.exe --onefile --noconsole .\api_country.py
