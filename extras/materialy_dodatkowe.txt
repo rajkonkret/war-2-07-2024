@@ -116,3 +116,18 @@ spam -= 1    spam = spam - 1
 spam *= 1    spam = spam * 1
 spam /= 1    spam = spam / 1
 spam %= 1    spam = spam % 1
+
+__lt__(self, other)	<
+__le__(self, other)	<=
+__eq__(self, other)	==
+__ne__(self, other)	!=
+__gt__(self, other)	>
+__ge__(self, other)	>=
+
+__add__(self, other)	+
+__sub__(self, other)	–
+__mul__(self, other)	*
+__truediv__(self, other)	/
+__floordiv__(self, other)	//
+__mod__(self, other)	%
+__pow__(self, other)	**
